@@ -1,0 +1,44 @@
+.outbox {
+    width: 250px;
+    height: 200px;
+}
+
+.innerSpan {
+    width: 200px;
+    height: 130px;
+    font-size: 115px;
+}
+body{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #2C1709;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #0E0703;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 35px;
+}
